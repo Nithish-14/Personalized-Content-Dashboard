@@ -1,0 +1,25 @@
+# === Global ===
+.DS_Store
+Thumbs.db
+*.log
+*.tsbuildinfo
+
+# === Frontend ===
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.env
+/frontend/.env.local
+/frontend/.vite/
+/frontend/coverage/
+/frontend/.next/      # Just in case you add Next.js later
+
+# === Backend ===
+/backend/node_modules/
+/backend/dist/
+/backend/.env
+/backend/.env.local
+/backend/coverage/
+
+# === Editor & OS Folders ===
+.vscode/
+.idea/
